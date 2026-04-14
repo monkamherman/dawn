@@ -11,7 +11,7 @@
   "sections": {
     "gp_section_615147453678682926": {
       "settings": {
-        "checksum": "b3b80e39056568ca3752aec08205ad36aa3926f9fcec72cf9ddbd5544b37b614_1_1_1_0__1",
+        "checksum": "7a5034cde54f0d6a24b6ceaa688183f022deff9cd0105647d0b31081ce45e104_1_1_1_0__1",
         "ggezJ629nQ1_errorMessage": "Cannot add product to cart",
         "ggezJ629nQ1_label": "Let’s lay & play",
         "ggezJ629nQ1_outOfStockLabel": "Out of stock",
@@ -38,29 +38,6 @@
         "ggXPDirr6WD_title": "Image Title"
       },
       "type": "gp-section-615147455020794539"
-    },
-    "gp_section_615147456060982064": {
-      "settings": {
-        "checksum": "bf622dfa8cfc3a1f06dbd1c438f53da75d8b6f2faa67bbbe46539045be9d390d_1_1_1_0__1",
-        "ggLvyJ68WBu_label": "Refunds & returns",
-        "ggU_6ZvgvZs_label": "Terms of service",
-        "ggjUTL4Zf5e_alt": "Alt Image",
-        "ggjUTL4Zf5e_srcSet_desktop_src": "https://ucarecdn.com/a665d355-60d7-4021-945f-7e30937c2163/Logo.svg",
-        "ggjUTL4Zf5e_title": "Image Title",
-        "ggnGnA210sq_label": "privacy policy"
-      },
-      "type": "gp-section-615147456060982064"
-    },
-    "gp_section_615147457554154155": {
-      "settings": {
-        "checksum": "d70f04b31841cbd7869c8417472179f70448df0ecf875eb28599b20b700f141b_1_1_1_0__1",
-        "ggZ3KFI_ru0_background_desktop_image_src": "https://ucarecdn.com/65e3ee4a-d6d3-4f31-a70f-7a699fab37b6/-/format/auto/-/preview/3000x3000/-/quality/lighter/Background-Cloud.png",
-        "ggn7JCzu6Bh_alt": "Alt Image",
-        "ggn7JCzu6Bh_srcSet_desktop_src": "https://ucarecdn.com/882e1c84-3227-4c4a-b0c4-7dbb0192a7c5/-/format/auto/-/preview/480x480/-/quality/lighter/SuperBaby.png",
-        "ggn7JCzu6Bh_title": "Image Title",
-        "ggzmsicO4PS_text": "<p>Here Are Our Super Babies<br>How About Yours?</p>"
-      },
-      "type": "gp-section-615147457554154155"
     },
     "gp_section_615147458879554203": {
       "settings": {
@@ -120,7 +97,7 @@
     },
     "gp_section_615147462100779691": {
       "settings": {
-        "checksum": "c42eba6b7417c6a62da19a1cf92ec7aa298e1df3a00b35e9143bc677b9e758db_1_1_1_0__1",
+        "checksum": "9f033d32b8ac8c0b872e306d68fc5fb0443eaee9c9c21df9b0028f9804adc18d_1_1_1_0__1",
         "gg1G9LUv_Uf_alt": "Alt Image",
         "gg1G9LUv_Uf_srcSet_desktop_src": "https://ucarecdn.com/3fe781be-bffb-40c9-a2a5-c061885e9d26/CheckWhite.svg",
         "gg1G9LUv_Uf_title": "Image Title",
@@ -193,11 +170,10 @@
     },
     "gp_section_615147902183932718": {
       "settings": {
-        "checksum": "9eddd8b171dd16ada70b98ee4a26d0f0bf7a52d836646c0b3d906592d6d91416_1_1_1_0__1",
-        "gg5s2z8Ujnb_background_desktop_image_src": "https://ucarecdn.com/45708a6d-cf80-4d76-837c-9f59a1e113ae/-/format/auto/",
+        "checksum": "30dee851b596d79daa907b9f9e42ec531ce4b7b33ed443d85af2df405a04df4d_1_1_1_0__1",
+        "gg5s2z8Ujnb_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/0748/7999/1975/files/Logos_pour_la_marque_Zoubi_Edited_2_5980deed-d44a-4378-b617-e1f7af64189a.png",
         "gg5s2z8Ujnb_background_desktop_videoHtml5": "https://media.w3.org/2010/05/sintel/trailer.mp4",
         "gg8FKVHTRhp_text": "Home Decor",
-        "ggGa7uTaq7f_label": "Shop Now",
         "ggV83ONkhjY_text": "Discover Our Top Decorative Picks",
         "ggd8jTFwk9t_text": "Add a touch of comfort and style to your living space with these luxurious, fluffy heart-shaped cushion covers.",
         "gggL0t5CoHp_text": "FLUFFY COMFORT <br> SAVE UP TO 50%"
@@ -206,7 +182,7 @@
     },
     "gp_section_615148002075476782": {
       "settings": {
-        "checksum": "f04d2d512d583505b93c3211cfa835c4e0568ac556c74d369cb3e248aefb6620_1_1_1_0__1",
+        "checksum": "7cc4a47e31036012f644ff67a527725363a33fbf30d7e3dbbed27a435d57ffbc_1_1_1_0__1",
         "ggAR0qbiRDn_childItem_0": "<p>Sed ut perspiciatis unde</p>",
         "ggAR0qbiRDn_childItem_1": "<p>Sed ut perspiciatis unde</p>",
         "ggAR0qbiRDn_childItem_2": "<p>Sed ut perspiciatis unde</p>",
@@ -236,15 +212,6 @@
         "ggnwoXElmHe_unlimitedQuantityMessage": "\n      <mark class='gp-text-white gp-py-1 gp-px-2 gp-mr-1 gp-inline-block gp-my-[1px] gp-bg-g-text-1'>\n    HURRY!</mark> LET BUY NOW"
       },
       "type": "gp-section-615148002075476782"
-    },
-    "gp_section_615148233517171371": {
-      "settings": {
-        "checksum": "0661af9f551bf2e782652ac3a5c9b18e39d034ce00d310ae3893821b31193d3f_1_1_1_0__1",
-        "ggJK6v2Ba4G_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/432750572815254551-045f6fd4-ba45-46a8-90d8-3054f707b295.png",
-        "ggX9UQn7qrl_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br><strong>Excepteur sint occaecat</strong> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate <strong>velit esse cillum</strong> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Duis aute irure dolor in reprehenderit</p>",
-        "gglRYxlG4JH_text": "Lorem ipsum"
-      },
-      "type": "gp-section-615148233517171371"
     },
     "gp_section_615148278010348203": {
       "settings": {
@@ -295,13 +262,10 @@
     "gp_section_615147632691512112",
     "gp_section_615147902183932718",
     "gp_section_615148002075476782",
-    "gp_section_615148278010348203",
-    "gp_section_615148233517171371",
-    "gp_section_615147458879554203",
     "gp_section_615147462100779691",
+    "gp_section_615147458879554203",
     "gp_section_615147455020794539",
-    "gp_section_615147457554154155",
-    "gp_section_615147456060982064",
+    "gp_section_615148278010348203",
     "gp_section_615147453678682926"
   ]
 }

@@ -30,43 +30,17 @@
       {%- assign gpBkProduct = product -%}
       
       {%- liquid
-        if request.page_type == 'product'
-          if 'static' == 'static'
-            if 'latest' == 'latest'
-              paginate collections.all.products by 100000
-                assign product = collections.all.products | sort: 'created_at' | reverse | first
-              endpaginate
-            else
-              assign product = all_products['']
-              assign productId = 'latest' | times: 1
-              if product == empty or product == null
-                paginate collections.all.products by 100000
-                  for item in collections.all.products
-                    if item.id == productId
-                      assign product = item
-                    endif
-                  endfor
-                endpaginate
-              endif
-            endif
-          endif
-        else
-          if 'latest' == 'latest'
+        if request.page_type != 'product'
+          assign product = all_products['bebe-grignoteuse-avec-2-grignoteuses-a-fruits-et-8-tailles-de-tetines-sans-bpa-diversification-alimentaire-pour-enfants-de-3-a-24-mois-rose-et-bleu']
+          assign productId = '8837082087591' | times: 1
+          if product == empty or product == null
             paginate collections.all.products by 100000
-              assign product = collections.all.products | sort: 'created_at'| reverse | first
+              for item in collections.all.products
+                if item.id == productId
+                  assign product = item
+                endif
+              endfor
             endpaginate
-          else
-            assign product = all_products['']
-            assign productId = 'latest' | times: 1
-            if product == empty or product == null
-              paginate collections.all.products by 100000
-                for item in collections.all.products
-                  if item.id == productId
-                    assign product = item
-                  endif
-                endfor
-              endpaginate
-            endif
           endif
         endif
       -%}
@@ -74,10 +48,10 @@
     
     {% if product != empty and product != null %}
       
-      {%- assign initVariantId = 39508861452350 -%}
+      {%- assign initVariantId =  -%}
       {%- assign product_form_id = 'product-form-' | append: "gCDEN8JkVT" -%}
-      {%- assign variant = product.variants | where: 'id', initVariantId | first -%}
-      {%- assign productSelectedVariant = product.variants | where: 'id', initVariantId | first -%}
+      {%- assign variant = product.selected_or_first_available_variant -%}
+      {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
       {%-if productSelectedVariant == empty or productSelectedVariant == null -%}
         {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
       {%- endif -%}
@@ -90,7 +64,7 @@
         data-id="gCDEN8JkVT"
         
         
-        gp-context='{"productId": {{ product.id }}, "preSelectedOptionIds": [], "isSyncProduct": "true", "hasPreSelected": true, "variantSelected": {{ variant | json | escape }},  "inventory_management": {{ variant.inventory_management | json | escape  }}, "inventory_policy": {{ variant.inventory_policy | json | escape }}, "inventoryQuantity": {{ variant.inventory_quantity | default: 0 }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
+        gp-context='{"productId": {{ product.id }}, "preSelectedOptionIds": [], "isSyncProduct": "true", "hasPreSelected": false, "variantSelected": {{ variant | json | escape }},  "inventory_management": {{ variant.inventory_management | json | escape  }}, "inventory_policy": {{ variant.inventory_policy | json | escape }}, "inventoryQuantity": {{ variant.inventory_quantity | default: 0 }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
         gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1, "productUrl":{{ product.url | json | escape }}, "productHandle":{{ product.handle | json | escape }}, "collectionUrl": {{ collection.url | json | escape }}, "collectionHandle": {{ collection.handle | json | escape }}}'
       >
         <product-form class="product-form">
