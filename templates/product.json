@@ -9,230 +9,299 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "square"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
+    "gp_section_615147453678682926": {
+      "settings": {
+        "checksum": "b3b80e39056568ca3752aec08205ad36aa3926f9fcec72cf9ddbd5544b37b614_1_1_1_0__1",
+        "ggezJ629nQ1_errorMessage": "Cannot add product to cart",
+        "ggezJ629nQ1_label": "Let’s lay & play",
+        "ggezJ629nQ1_outOfStockLabel": "Out of stock",
+        "ggezJ629nQ1_successMessage": "Add product to cart successfully",
+        "ggezJ629nQ1_unavailableLabel": "Unavailable"
       },
-      "block_order": [
-        "vendor",
-        "title",
-        "caption",
-        "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "color_scheme": "",
-        "media_size": "large",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "stacked",
-        "mobile_thumbnails": "hide",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": true,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
-      }
+      "type": "gp-section-615147453678682926"
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
+    "gp_section_615147455020794539": {
+      "settings": {
+        "checksum": "f9a991df3bbdd0545b3ebdbcc95b4168570350204515b2745af0c554e2dcd9e6_1_1_1_0__1",
+        "ggGub42GqMp_alt": "Alt Image",
+        "ggGub42GqMp_srcSet_desktop_src": "https://ucarecdn.com/f08ebeb2-5f45-43e4-92a9-543c1577b248/-/format/auto/-/preview/480x480/-/quality/lighter/Support.png",
+        "ggGub42GqMp_title": "Image Title",
+        "ggM8eXs3vVP_background_desktop_image_src": "https://ucarecdn.com/3ec07674-8438-4d72-899e-e36bbdb90fb8/-/format/auto/-/preview/3000x3000/-/quality/lighter/Circle.png",
+        "ggPG8KQV0rH_alt": "Alt Image",
+        "ggPG8KQV0rH_srcSet_desktop_src": "https://ucarecdn.com/67b85940-114b-42ac-b747-435afbbe63b3/-/format/auto/-/preview/480x480/-/quality/lighter/FreeShipping.png",
+        "ggPG8KQV0rH_title": "Image Title",
+        "ggPe0Ifs6hQ_alt": "Alt Image",
+        "ggPe0Ifs6hQ_srcSet_desktop_src": "https://ucarecdn.com/b9415ddd-8754-40f7-b8ec-bdc46b492260/-/format/auto/-/preview/480x480/-/quality/lighter/Guarantee.png",
+        "ggPe0Ifs6hQ_title": "Image Title",
+        "ggXPDirr6WD_alt": "Alt Image",
+        "ggXPDirr6WD_srcSet_desktop_src": "https://ucarecdn.com/4a5cd576-cb59-4861-9318-9bad50f1486b/-/format/auto/-/preview/480x480/-/quality/lighter/Return.png",
+        "ggXPDirr6WD_title": "Image Title"
       },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+      "type": "gp-section-615147455020794539"
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
+    "gp_section_615147456060982064": {
+      "settings": {
+        "checksum": "bf622dfa8cfc3a1f06dbd1c438f53da75d8b6f2faa67bbbe46539045be9d390d_1_1_1_0__1",
+        "ggLvyJ68WBu_label": "Refunds & returns",
+        "ggU_6ZvgvZs_label": "Terms of service",
+        "ggjUTL4Zf5e_alt": "Alt Image",
+        "ggjUTL4Zf5e_srcSet_desktop_src": "https://ucarecdn.com/a665d355-60d7-4021-945f-7e30937c2163/Logo.svg",
+        "ggjUTL4Zf5e_title": "Image Title",
+        "ggnGnA210sq_label": "privacy policy"
       },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+      "type": "gp-section-615147456060982064"
     },
-    "related-products": {
-      "type": "related-products",
+    "gp_section_615147457554154155": {
       "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
+        "checksum": "d70f04b31841cbd7869c8417472179f70448df0ecf875eb28599b20b700f141b_1_1_1_0__1",
+        "ggZ3KFI_ru0_background_desktop_image_src": "https://ucarecdn.com/65e3ee4a-d6d3-4f31-a70f-7a699fab37b6/-/format/auto/-/preview/3000x3000/-/quality/lighter/Background-Cloud.png",
+        "ggn7JCzu6Bh_alt": "Alt Image",
+        "ggn7JCzu6Bh_srcSet_desktop_src": "https://ucarecdn.com/882e1c84-3227-4c4a-b0c4-7dbb0192a7c5/-/format/auto/-/preview/480x480/-/quality/lighter/SuperBaby.png",
+        "ggn7JCzu6Bh_title": "Image Title",
+        "ggzmsicO4PS_text": "<p>Here Are Our Super Babies<br>How About Yours?</p>"
+      },
+      "type": "gp-section-615147457554154155"
+    },
+    "gp_section_615147458879554203": {
+      "settings": {
+        "checksum": "953d677d36c596c1bd2b00b2044955e3757b8c4f8316d05dc5d534e03283af51_1_1_1_0__1",
+        "gg36k8jZJWz_text": "<p>Unsafe materials</p>",
+        "ggDIKVS8nof_text": "<p>Unsafe materials</p>",
+        "ggDVRREVKuO_alt": "Alt Image",
+        "ggDVRREVKuO_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggDVRREVKuO_title": "Image Title",
+        "ggEWhFUz8Pf_alt": "Alt Image",
+        "ggEWhFUz8Pf_srcSet_desktop_src": "https://ucarecdn.com/c1413c74-da21-4d17-aca2-427fb62d3e4f/Baby.svg",
+        "ggEWhFUz8Pf_title": "Image Title",
+        "ggElnzC8unQ_alt": "Alt Image",
+        "ggElnzC8unQ_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggElnzC8unQ_title": "Image Title",
+        "ggEpf3XmapN_background_desktop_image_src": "https://ucarecdn.com/65e3ee4a-d6d3-4f31-a70f-7a699fab37b6/-/format/auto/-/preview/3000x3000/-/quality/lighter/Background-Cloud.png",
+        "ggFUOYpZmyv_alt": "Alt Image",
+        "ggFUOYpZmyv_srcSet_desktop_src": "https://ucarecdn.com/c3f1f353-af06-406d-a88c-74e5f679c176/Close.svg",
+        "ggFUOYpZmyv_title": "Image Title",
+        "ggG-hqKcjpW_text": "<p>GemBaby</p>",
+        "ggMQV2upUMh_alt": "Alt Image",
+        "ggMQV2upUMh_srcSet_desktop_src": "https://ucarecdn.com/c3f1f353-af06-406d-a88c-74e5f679c176/Close.svg",
+        "ggMQV2upUMh_title": "Image Title",
+        "ggO-qih2brA_text": "<p>Foldable for easy storage</p>",
+        "ggOfvbXRRDK_alt": "Alt Image",
+        "ggOfvbXRRDK_srcSet_desktop_src": "https://ucarecdn.com/c3f1f353-af06-406d-a88c-74e5f679c176/Close.svg",
+        "ggOfvbXRRDK_title": "Image Title",
+        "ggT-_XIwWK7_alt": "Alt Image",
+        "ggT-_XIwWK7_srcSet_desktop_src": "https://ucarecdn.com/f618e475-2432-40e2-bec4-4878389e4fe9/BabyMat.svg",
+        "ggT-_XIwWK7_title": "Image Title",
+        "ggT3TytOyJY_alt": "Alt Image",
+        "ggT3TytOyJY_srcSet_desktop_src": "https://ucarecdn.com/c3f1f353-af06-406d-a88c-74e5f679c176/Close.svg",
+        "ggT3TytOyJY_title": "Image Title",
+        "ggVt4A3KkBm_text": "<p>Unsafe materials</p>",
+        "ggZ7bQ9OKgJ_text": "<p>Foldable for easy storage</p>",
+        "ggeWGT06-Pq_text": "<p>Unsafe materials</p>",
+        "ggi6wdfNfky_text": "<p>Alternative Baby Mat</p>",
+        "ggif4Sy4MVk_text": "<p>Foldable for easy storage</p>",
+        "ggknlWis749_text": "<p>Eco-friendly and baby-safe materials</p>",
+        "ggnJnee214M_text": "<p>Why choose GemBaby?</p>",
+        "ggnNPaIB8Kh_alt": "Alt Image",
+        "ggnNPaIB8Kh_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggnNPaIB8Kh_title": "Image Title",
+        "ggogkaROQBS_text": "<p>Slow &amp; costly shipping</p>",
+        "ggpX8vYGCzM_text": "<p>Fast &amp; Free shipping</p>",
+        "ggrRjRyg18X_alt": "Alt Image",
+        "ggrRjRyg18X_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggrRjRyg18X_title": "Image Title",
+        "ggsh2xlVgRZ_alt": "Alt Image",
+        "ggsh2xlVgRZ_srcSet_desktop_src": "https://ucarecdn.com/c3f1f353-af06-406d-a88c-74e5f679c176/Close.svg",
+        "ggsh2xlVgRZ_title": "Image Title",
+        "ggu3kfmfaEh_alt": "Alt Image",
+        "ggu3kfmfaEh_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggu3kfmfaEh_title": "Image Title"
+      },
+      "type": "gp-section-615147458879554203"
+    },
+    "gp_section_615147462100779691": {
+      "settings": {
+        "checksum": "c42eba6b7417c6a62da19a1cf92ec7aa298e1df3a00b35e9143bc677b9e758db_1_1_1_0__1",
+        "gg1G9LUv_Uf_alt": "Alt Image",
+        "gg1G9LUv_Uf_srcSet_desktop_src": "https://ucarecdn.com/3fe781be-bffb-40c9-a2a5-c061885e9d26/CheckWhite.svg",
+        "gg1G9LUv_Uf_title": "Image Title",
+        "gg2_7DTXUYC_displayContent": "Sale {amount_discount}",
+        "gg7fTJutstI_errorMessage": "Cannot add product to cart",
+        "gg7fTJutstI_label": "choose IT",
+        "gg7fTJutstI_outOfStockLabel": "Out of stock",
+        "gg7fTJutstI_successMessage": "Add product to cart successfully",
+        "gg7fTJutstI_unavailableLabel": "Unavailable",
+        "gg8hpYM9IC0_text": "<p>Creative Vision</p>",
+        "ggBMoNE9GbF_text": "<p>Most popular</p>",
+        "ggBm_P1eVAi_text": "<p>FREE 3 x SOFT BOOKS</p>",
+        "ggJptJ3gHiw_text": "<p>The Complete Kit</p>",
+        "ggKaWDgPiaG_alt": "Alt Image",
+        "ggKaWDgPiaG_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggKaWDgPiaG_title": "Image Title",
+        "ggKj6kUWUfV_alt": "Alt Image",
+        "ggKj6kUWUfV_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggKj6kUWUfV_title": "Image Title",
+        "ggQ5H0Bv8aO_errorMessage": "Cannot add product to cart",
+        "ggQ5H0Bv8aO_label": "choose IT",
+        "ggQ5H0Bv8aO_outOfStockLabel": "Out of stock",
+        "ggQ5H0Bv8aO_successMessage": "Add product to cart successfully",
+        "ggQ5H0Bv8aO_unavailableLabel": "Unavailable",
+        "ggYCuMWTicf_text": "<p>1 x Activity Mat ($30.99)</p>",
+        "ggd174pt7Qe_text": "<p>3 x Musical Toys ($15.5)&nbsp;</p>",
+        "ggeVoilVpsE_text": "<p>More Toys for Less Price</p>",
+        "ggeaAUxV1Y1_text": "<p>7 x Removable Toys ($48.00)</p>",
+        "ggfZLNYn9bq_displayContent": "Sale {amount_discount}",
+        "ggg904GqVGP_text": "<p>1 x Activity Mat ($30.99)</p>",
+        "ggilGWwpYIc_text": "<p>7 x Removable Toys ($48.00)</p>",
+        "ggkMpmmnK9I_alt": "Alt Image",
+        "ggkMpmmnK9I_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggkMpmmnK9I_title": "Image Title",
+        "ggnWBlbJLCH_displayContent": "Sale {amount_discount}",
+        "ggnbjTbvFdm_text": "<p>1 x Activity Mat ($30.99)</p>",
+        "ggnsOycLWj6_alt": "Alt Image",
+        "ggnsOycLWj6_srcSet_desktop_src": "https://ucarecdn.com/3fe781be-bffb-40c9-a2a5-c061885e9d26/CheckWhite.svg",
+        "ggnsOycLWj6_title": "Image Title",
+        "ggoi3UInwH-_text": "<p>Best value</p>",
+        "ggsEf-ouxaD_alt": "Alt Image",
+        "ggsEf-ouxaD_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggsEf-ouxaD_title": "Image Title",
+        "ggvaDv6o1pp_text": "<p>Magic Sound</p>",
+        "ggxFjUq2_T0_alt": "Alt Image",
+        "ggxFjUq2_T0_srcSet_desktop_src": "https://ucarecdn.com/561efcc8-7727-42a1-9372-ad54039399ec/Check.svg",
+        "ggxFjUq2_T0_title": "Image Title",
+        "ggzA7rihRmZ_text": "<p>2 x Visual Toys ($8.00)</p>",
+        "ggzvBoQCIRk_errorMessage": "Cannot add product to cart",
+        "ggzvBoQCIRk_label": "choose IT",
+        "ggzvBoQCIRk_outOfStockLabel": "Out of stock",
+        "ggzvBoQCIRk_successMessage": "Add product to cart successfully",
+        "ggzvBoQCIRk_unavailableLabel": "Unavailable"
+      },
+      "type": "gp-section-615147462100779691"
+    },
+    "gp_section_615147632691512112": {
+      "settings": {
+        "checksum": "189f2843d38d7d830adf1c423a20dbeefc5500b3f8a4be734e5d87b7bd88b6b9_1_1_1_0__1",
+        "ggK0zLncMJR_background_desktop_image_src": "https://cdn.shopify.com/s/files/1/0748/7999/1975/files/hero-mother-baby_e34b01db-fc7d-4fe4-b2cf-374e28f1e2b9.jpg",
+        "ggK0zLncMJR_background_mobile_image_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-887632d6-c99e-499e-9f78-595ee2ca5742.png?v=1716886805",
+        "ggK0zLncMJR_background_mobile_videoHtml5": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+        "ggKCAkqYbe5_text": "<p>welcome</p>",
+        "ggMotifJv70_text": "<p>Don't let this incredible opportunity slip away! Own the ultimate RC off-road vehicle now!</p>",
+        "ggPHRa8Y-wQ_label": "Don’t Miss Out",
+        "ggWTTRWLLOP_text": "Enjoy your &nbsp;<span style=\"color:#7DD0E8;\">30% off!</span>",
+        "section_preload": "true"
+      },
+      "type": "gp-section-615147632691512112"
+    },
+    "gp_section_615147902183932718": {
+      "settings": {
+        "checksum": "9eddd8b171dd16ada70b98ee4a26d0f0bf7a52d836646c0b3d906592d6d91416_1_1_1_0__1",
+        "gg5s2z8Ujnb_background_desktop_image_src": "https://ucarecdn.com/45708a6d-cf80-4d76-837c-9f59a1e113ae/-/format/auto/",
+        "gg5s2z8Ujnb_background_desktop_videoHtml5": "https://media.w3.org/2010/05/sintel/trailer.mp4",
+        "gg8FKVHTRhp_text": "Home Decor",
+        "ggGa7uTaq7f_label": "Shop Now",
+        "ggV83ONkhjY_text": "Discover Our Top Decorative Picks",
+        "ggd8jTFwk9t_text": "Add a touch of comfort and style to your living space with these luxurious, fluffy heart-shaped cushion covers.",
+        "gggL0t5CoHp_text": "FLUFFY COMFORT <br> SAVE UP TO 50%"
+      },
+      "type": "gp-section-615147902183932718"
+    },
+    "gp_section_615148002075476782": {
+      "settings": {
+        "checksum": "f04d2d512d583505b93c3211cfa835c4e0568ac556c74d369cb3e248aefb6620_1_1_1_0__1",
+        "ggAR0qbiRDn_childItem_0": "<p>Sed ut perspiciatis unde</p>",
+        "ggAR0qbiRDn_childItem_1": "<p>Sed ut perspiciatis unde</p>",
+        "ggAR0qbiRDn_childItem_2": "<p>Sed ut perspiciatis unde</p>",
+        "ggEG-rq6Nxg_continueSelling": "Restock soon, PREORDER NOW!",
+        "ggEG-rq6Nxg_outOfStockMessage": "OUT OF STOCK",
+        "ggEG-rq6Nxg_template": "In-stock, ships within 1-2days",
+        "ggEG-rq6Nxg_unlimitedQuantityMessage": "\n      <mark class='gp-text-white gp-py-1 gp-px-2 gp-mr-1 gp-inline-block gp-my-[1px] gp-bg-g-text-1'>\n    HURRY!</mark> LET BUY NOW",
+        "ggMmEsmbibf_childItem_0": "<p>More quality</p>",
+        "ggMmEsmbibf_childItem_1": "<p>Sustainable &amp; patented</p>",
+        "ggMmEsmbibf_childItem_2": "<p>Made in Germany</p>",
+        "ggNNLhWNgvQ_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-c7eabd02-6765-48f6-9abc-33a21732e513.png?v=1717483231",
+        "ggQUW-UWaL5_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-a739e588-df2a-4412-b6b9-9fd0010151fa.png?v=1717483208",
+        "ggQs6rUL7B-_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-fa010a54-e8ff-4f86-8df1-3086045a96dd.png?v=1717580783",
+        "ggZPhaHQ4c__text": "<p>2,500 Verified Reviews!</p>",
+        "ggZsNHYg-4r_text": "<p>(42)</p>",
+        "ggeY9pXPEO4_errorMessage": "Cannot add product to cart",
+        "ggeY9pXPEO4_label": "Add to cart",
+        "ggeY9pXPEO4_outOfStockLabel": "Out of stock",
+        "ggeY9pXPEO4_successMessage": "Add product to cart successfully",
+        "ggeY9pXPEO4_unavailableLabel": "Unavailable",
+        "ggjutNX-PHC_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-0d685f68-4a3d-4ddf-ad42-4febf4aeac66.png?v=1717483242",
+        "ggmR51s_0K1_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-007ba5d6-78cc-48e0-8aba-99cea8630163.png?v=1717235217",
+        "ggmqjq3OVDe_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-ce5ce636-207d-4b3c-9c86-f88a3372e9b4.png?v=1717483220",
+        "ggnwoXElmHe_continueSelling": "Restock soon, PREORDER NOW!",
+        "ggnwoXElmHe_outOfStockMessage": "OUT OF STOCK",
+        "ggnwoXElmHe_template": "In-stock, ships within 1-2days",
+        "ggnwoXElmHe_unlimitedQuantityMessage": "\n      <mark class='gp-text-white gp-py-1 gp-px-2 gp-mr-1 gp-inline-block gp-my-[1px] gp-bg-g-text-1'>\n    HURRY!</mark> LET BUY NOW"
+      },
+      "type": "gp-section-615148002075476782"
+    },
+    "gp_section_615148233517171371": {
+      "settings": {
+        "checksum": "0661af9f551bf2e782652ac3a5c9b18e39d034ce00d310ae3893821b31193d3f_1_1_1_0__1",
+        "ggJK6v2Ba4G_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/432750572815254551-045f6fd4-ba45-46a8-90d8-3054f707b295.png",
+        "ggX9UQn7qrl_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br><strong>Excepteur sint occaecat</strong> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate <strong>velit esse cillum</strong> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Duis aute irure dolor in reprehenderit</p>",
+        "gglRYxlG4JH_text": "Lorem ipsum"
+      },
+      "type": "gp-section-615148233517171371"
+    },
+    "gp_section_615148278010348203": {
+      "settings": {
+        "checksum": "1843d76963e05aa31207d527fdf744326abb73a0d9c9c29b46528b025a310094_1_1_1_0__1",
+        "gg-1LaYnegR_text": "<p>You're walking on a cloud!</p>",
+        "gg1hHHdfv_n_childItem_0": "<p>Verified Buyer</p>",
+        "gg2OWT1s_3Y_text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "gg3kPX6n-Lk_childItem_0": "<p>Verified Buyer</p>",
+        "gg4dsoTvNHO_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-353c266c-ede3-4a15-9a30-c524f3f04e7e.png?v=1715668534",
+        "gg4ez2EUfDp_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-de09378f-df23-45e5-b4f3-7210b86f6449.png?v=1715668545",
+        "gg5PL2bURzV_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-0a363685-abde-44d8-b4a0-e51163115809.png?v=1715668522",
+        "gg5hh_BSuvt_text": "<p>- Ryan S.&nbsp;</p>",
+        "gg9isxfxhmg_text": "<p>You're walking on a cloud!</p>",
+        "ggF672hyKCd_text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "ggFvBgLUnnZ_childItem_0": "<p>Verified Buyer</p>",
+        "ggNma-dKHSK_text": "<p>- James D.&nbsp;</p>",
+        "ggO16HwePr3_text": "<p>- Ryan S.&nbsp;</p>",
+        "ggOqVbQczzo_text": "<p>You're walking on a cloud!</p>",
+        "ggPqIQLltV7_childItem_0": "<p>Verified Buyer</p>",
+        "ggS6F_GHDYC_childItem_0": "<p>Verified Buyer</p>",
+        "ggSOc3lJz9t_text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "ggVCIxMJwA-_childItem_0": "<p>Verified Buyer</p>",
+        "ggZxdVk2uUY_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/gempages_432750572815254551-24b9dc62-4641-4aee-934b-7cbd32447a5b.png?v=1715668556",
+        "ggeVc1GbDy3_childItem_0": "<p>Verified Buyer</p>",
+        "ggfO6A4CI24_text": "<p>You're walking on a cloud!</p>",
+        "gggJ3s08jAC_text": "<p>- James D.&nbsp;</p>",
+        "ggg_0I97EA0_text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "gggnvSB0whR_text": "<p>Lorem ipsum dolor sit!</p>",
+        "ggi4JJL52Ko_text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "ggiiKkKQ2I1_text": "<p>- Reylo B.&nbsp;</p>",
+        "ggiqlbeqwsQ_text": "<p>- Ken K.&nbsp;</p>",
+        "ggjdL4UBr28_childItem_0": "<p>Verified Buyer</p>",
+        "ggkd4JmUdg__text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "gglTpJMbJ_c_text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "ggmq3k6eNoe_text": "<p>- Ken K.&nbsp;</p>",
+        "ggod4SA7PKG_text": "<p>You're walking on a cloud!</p>",
+        "ggpKWcZ2Dps_text": "<p>You're walking on a cloud!</p>",
+        "ggpL0qq3xSZ_text": "What Our Customers Say",
+        "ggrlJcoSp9b_text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "gguMkWh5-SS_text": "<p>- Reylo B.&nbsp;</p>",
+        "ggwhEBTFOt1_text": "<p>You're walking on a cloud!</p>",
+        "ggxGqnxH6OU_text": "<p>You're walking on a cloud!</p>"
+      },
+      "type": "gp-section-615148278010348203"
     }
   },
   "order": [
-    "main",
-    "image-with-text",
-    "multicolumn",
-    "related-products"
+    "gp_section_615147632691512112",
+    "gp_section_615147902183932718",
+    "gp_section_615148002075476782",
+    "gp_section_615148278010348203",
+    "gp_section_615148233517171371",
+    "gp_section_615147458879554203",
+    "gp_section_615147462100779691",
+    "gp_section_615147455020794539",
+    "gp_section_615147457554154155",
+    "gp_section_615147456060982064",
+    "gp_section_615147453678682926"
   ]
 }
