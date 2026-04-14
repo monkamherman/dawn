@@ -11,12 +11,12 @@
   "sections": {
     "gp_section_615147453678682926": {
       "settings": {
-        "checksum": "7a5034cde54f0d6a24b6ceaa688183f022deff9cd0105647d0b31081ce45e104_1_1_1_0__1",
-        "ggezJ629nQ1_errorMessage": "Cannot add product to cart",
-        "ggezJ629nQ1_label": "Let’s lay & play",
-        "ggezJ629nQ1_outOfStockLabel": "Out of stock",
-        "ggezJ629nQ1_successMessage": "Add product to cart successfully",
-        "ggezJ629nQ1_unavailableLabel": "Unavailable"
+        "checksum": "64a070b8299b7e0a186839a55ae4988fff4799831c240e76ceafc95bcacf9a22_1_1_1_0__1",
+        "ggV7KaJBW27_dayLabel": "Day",
+        "ggV7KaJBW27_hourLabel": "Hour",
+        "ggV7KaJBW27_minuteLabel": "Minute",
+        "ggV7KaJBW27_secondLabel": "Second",
+        "ggV7KaJBW27_weekLabel": "Week"
       },
       "type": "gp-section-615147453678682926"
     },
