@@ -57,6 +57,49 @@
         "show_text_below": false
       }
     },
+    "rich_text_FM6pTj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_enKp6N": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_RULpRT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✓ Livraison 3-5 jours en France • Satisfait ou remboursé 30 jours</p>"
+          }
+        },
+        "button_b67yKg": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_enKp6N",
+        "text_RULpRT",
+        "button_b67yKg"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -224,6 +267,7 @@
   },
   "order": [
     "image_banner",
+    "rich_text_FM6pTj",
     "rich_text",
     "featured_collection",
     "collage",
